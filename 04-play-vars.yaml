@@ -1,0 +1,11 @@
+- name: print the cource information
+  hosts: local
+  connection: local
+  vars:
+  COURSE: Ansible
+  DURATION: 10HR
+  TRINER IS: venky
+  tasks:
+  - name: cource information
+    ansible.builtin.debug:
+      msg: "Hello {{ COURSE }}, Course duration {{ DURATION }}, Triner is {{ TRINER IS }}"
