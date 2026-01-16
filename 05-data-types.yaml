@@ -5,14 +5,14 @@
     DURATION: 120
     COURSE: Ansible
     IS_LIVE: true
-  TOOLS:
-  - Linux
-  - Shell
-  - Ansible
-  - Terraform
-  CONCEPTS:
-    CI: Jenkins
-    SCRIPTING: "Shell, Ansible, Terraform, Python"
+    TOOLS:
+    - Linux
+    - Shell
+    - Ansible
+    - Terraform
+    CONCEPTS:
+      CI: Jenkins
+      SCRIPTING: "Shell, Ansible, Terraform, Python"
   tasks:
   - name: course information
     ansible.builtin.debug:
