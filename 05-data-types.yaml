@@ -6,10 +6,10 @@
     COURSE: Ansible
     IS_LIVE: true
   TOOLS:
-    - Linux
-    - Shell
-    - Ansible
-    - Terraform
+  - Linux
+  - Shell
+  - Ansible
+  - Terraform
   CONCEPTS:
     CI: Jenkins
     SCRIPTING: "Shell, Ansible, Terraform, Python"
