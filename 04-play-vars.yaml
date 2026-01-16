@@ -4,8 +4,8 @@
   vars:
    COURSE: Ansible
    DURATION: 10HR
-   TRINER IS: venky
+   TRINER: venky
   tasks:
   - name: cource information
     ansible.builtin.debug:
-      msg: "Hello {{ COURSE }}, Course duration {{ DURATION }}, Triner is {{ TRINER IS }}"
+      msg: "Hello {{ COURSE }}, Course duration {{ DURATION }}, Triner is {{ TRINER }}"
