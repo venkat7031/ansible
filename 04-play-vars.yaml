@@ -2,9 +2,9 @@
   hosts: local
   connection: local
   vars:
-  COURSE: Ansible
-  DURATION: 10HR
-  TRINER IS: venky
+   COURSE: Ansible
+   DURATION: 10HR
+   TRINER IS: venky
   tasks:
   - name: cource information
     ansible.builtin.debug:
