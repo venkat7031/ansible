@@ -14,6 +14,6 @@
     CI: Jenkins
     SCRIPTING: "Shell, Ansible, Terraform, Python"
   tasks:
-    - name: course information
-      ansible.builtin.debug:
-        msg: "duration is: {{ DURATION }}, cource is: {{ Ansible }}, is_live?: {{ IS_LIVE }}, tools are: {{ TOOLS }}, concepts are: {{ CONCEPTS }}" 
+  - name: course information
+    ansible.builtin.debug:
+      msg: "duration is: {{ DURATION }}, cource is: {{ COURSE }}, is_live?: {{ IS_LIVE }}, tools are: {{ TOOLS }}, concepts are: {{ CONCEPTS }}" 
