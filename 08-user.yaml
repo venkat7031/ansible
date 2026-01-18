@@ -14,4 +14,4 @@
   - name: user already exist
     ansible.builtin.debug:
       msg: user already exist
-    when: output.rc !== 0
+    when: output.rc == 0
